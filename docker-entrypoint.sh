@@ -12,5 +12,5 @@ flask db init
 flask db migrate
 flask db upgrade
 
-cd /Photos-Docker-Flask
+cd /Hackathon-Flask
 python run.py

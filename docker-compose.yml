@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  website:
+  hackathon:
     build: .
     links:
       - db
@@ -16,7 +16,7 @@ services:
       - "32000:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_USER: insta_admin
-      MYSQL_PASSWORD: insta2018
-      MYSQL_DATABASE: insta_db
+      MYSQL_USER: hackathon_admin
+      MYSQL_PASSWORD: hackathon_2021
+      MYSQL_DATABASE: hackathon_database
 
